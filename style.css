@@ -20,8 +20,8 @@ h1{
 }
 .layer1{
     width: 485px;
-    padding-left: 80px;
-    padding-top: 207px;
+    padding-left: 100px;
+    padding-top: 80px;
     padding-bottom: 86px;
     color: white;
    }    
@@ -35,8 +35,6 @@ h1{
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
-    display: inline-block;
-    margin-top: 50px;
     }   
 .link-button:hover {
     background-image: linear-gradient(red ,tomato);
@@ -44,13 +42,13 @@ h1{
     /* players style */
 
 .sec2{
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 165px;
 }
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);   
 }
 .player{
     box-shadow: 10px 10px 30px black;
@@ -75,7 +73,8 @@ h1{
 .layer3{
     width: 469px;
     height: 309px;
-    padding-left: 80px;
+    padding-left: 120px;
+
     padding-bottom: 86px;
 
 }
@@ -86,6 +85,52 @@ h1{
 .copatext{
     font-size: 48px;
 }
+.link-button2{
+    text-decoration: none;
+    background-color: #E02C6D;
+    font-weight: 700px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.link-button2:hover {
+    background-image: linear-gradient(#173562,blue );
+    
+}
+/* layer4 style  */
+
+
+h2{
+    font-size: 24px;
+    font-weight: 600
+}
+.news{
+    color:#173562;
+    margin-left:60px ;
+    
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 80px;
+}
+.blog img{
+    width: 351px;
+    height: 231px;
+    border-radius: 5px;
+    
+}
+.link-button3{
+    text-decoration: none;
+    color: black;
+}
+
 /* footer style  */
 
 .footer{
@@ -118,4 +163,21 @@ footer img{
 span{ 
     font-size: 18px;
 font-weight: 400;}
+
+/* Media Query*/
+
+/* Mobile Devices */
+ 
+/* @media only screen and (max-width:688px) {
+.container{width: 100%;}
+    .sec1{width: 667px;
+       
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+   }
+  
+.layer1{ width:667px ; } 
+} */
+
+
 
