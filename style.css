@@ -9,10 +9,7 @@ p{
     font-size: 16px
 }
 
-/* heding */
-h1{
-    font-size: 59px;
-}
+/* heding or section1 style*/
 .sec1{
     display: flex;
     background-color: #2D25A0;
@@ -25,9 +22,9 @@ h1{
     padding-bottom: 86px;
     color: white;
    }    
-.layer1 img{
-    width: 566px;
-    padding-left: 10px;}     
+h1{
+    font-size: 59px;
+}     
 .link-button{
     text-decoration: none;
     background-color: #E02C6D;
@@ -39,7 +36,10 @@ h1{
 .link-button:hover {
     background-image: linear-gradient(red ,tomato);
 }
-    /* players style */
+.layer1 img{
+    width: 566px;
+    padding-left: 10px;}
+    /* section2 or players style */
 
 .sec2{
     margin-left: 100px;
@@ -65,7 +65,7 @@ h1{
 .player-name{
     font-size:28px ;
 }
-/* layer3 style  */
+/* section3 or layer3 style  */
 .sec3{
     display: flex;
     margin-bottom: 158px;
@@ -74,13 +74,7 @@ h1{
     width: 469px;
     height: 309px;
     padding-left: 120px;
-
     padding-bottom: 86px;
-
-}
-.layer3 img{
-    width: 567px;
-    height: 427px;
 }
 .copatext{
     font-size: 48px;
@@ -97,19 +91,23 @@ h1{
 }
 .link-button2:hover {
     background-image: linear-gradient(#173562,blue );
-    
-}
+    }
+    .layer3 img{
+        width: 567px;
+        height: 427px;
+    }
+
 /* layer4 style  */
 
 
-h2{
-    font-size: 24px;
-    font-weight: 600
-}
+
 .news{
     color:#173562;
     margin-left:60px ;
     
+}
+.newsbox{
+    display: flex;
 }
 .blog{
     display: grid;
@@ -122,13 +120,18 @@ h2{
 }
 .blog img{
     width: 351px;
-    height: 231px;
+    height: 234px;
     border-radius: 5px;
     
 }
 .link-button3{
     text-decoration: none;
     color: black;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 20px;
 }
 
 /* footer style  */
@@ -164,20 +167,11 @@ span{
     font-size: 18px;
 font-weight: 400;}
 
-/* Media Query*/
+/* ending */
 
-/* Mobile Devices */
+
+    
  
-/* @media only screen and (max-width:688px) {
-.container{width: 100%;}
-    .sec1{width: 667px;
-       
-       display: grid;
-       grid-template-columns: repeat(1,1fr);
-   }
-  
-.layer1{ width:667px ; } 
-} */
 
 
 
